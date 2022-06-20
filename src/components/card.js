@@ -4,7 +4,7 @@ class Card extends React.Component{
 
     render(){
         return(
-            <div className='card mb-3'>
+            <div className='card md-3'>
                 <h3 className='card-header'>{this.props.title}</h3>
                 <div className='card-body'>
                     {this.props.children}
@@ -14,5 +14,4 @@ class Card extends React.Component{
     }
 }
 
-
-export default Card
+export default Card;
